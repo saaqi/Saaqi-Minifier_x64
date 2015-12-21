@@ -1,6 +1,6 @@
 {
 	"cmd": [
-		"${packages}/Saaqi-Minifier_x64/Node.js/uglifyjs.cmd",
+		"uglifyjs",
 		"$file", "-o", "${file_base_name}.min.${file_extension}",
 		"--compress", "--mangle"
 	],
